@@ -25,6 +25,11 @@
     margin: 0 auto;
     max-width: 100%;
 }
+/* GLOBAL - Establezco tamaño VH de la AAP*/
+
+.tamano-app {
+    height: 40vh;
+}
 
 /*GLOBAL - inZoom para imagenes*/
 .zoom{
@@ -69,8 +74,15 @@ input[type=number]{
     }
 }
 
+/*GLOBAL  - Tamaño de iconos*/
 .icon-contact{
     width: 2rem;
     height: 2rem;
     fill: map-get($color, theme-secondary);
 }
+
+.icon-files{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+  
