@@ -69,13 +69,19 @@ input[type=number] {
 .icon-contact {
   width: 2rem;
   height: 2rem;
-  fill: #c52b78; }
+  fill: #c52b78;
+}
 
 .icon-files{
   width: 1.5rem;
   height: 1.5rem;
 }
 
+.icon-inicio-app{
+  width: 6.5rem;
+  height: 6.5rem;
+  fill: #c52b78;
+}
 
 header .ro-nav {
   background-color: #6f42c1;
