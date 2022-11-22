@@ -20,6 +20,17 @@
   margin: 0 auto;
   max-width: 100%; }
 
+/*GLOBAL - Altura de la pantalla de la APP*/
+.tamano-app {
+    height: 65vh;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 502px) {
+  .tamano-app {
+    height: 90vh;
+  } 
+}
+
 /*GLOBAL - inZoom para imagenes*/
 .zoom {
   transition: width 2s, height 2s, transform 1s; }
@@ -54,10 +65,17 @@ input[type=number] {
     border-color: #3184fd80;
     box-shadow: 0 0 0 0.25rem #3184fd80; }
 
+/*GLOBAL - Tamaño de iconos*/
 .icon-contact {
   width: 2rem;
   height: 2rem;
   fill: #c52b78; }
+
+.icon-files{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 
 header .ro-nav {
   background-color: #6f42c1;
